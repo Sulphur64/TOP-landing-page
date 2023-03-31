@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=roboto:wght@400;700&display=swap');
+
+.page-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+
+}
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        height: 40px;
+        background-color: blue;
+
+    }
+
+        .logo {
+            margin-left: 30px;
+            margin-right: auto;
+        }
+    
+    .element-media {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        background-color: rgb(110, 110, 248);
+
+    }
+        .element-media-description {
+
+        }
+
+        .element-media-image {
+            
+            width: 200px;
+            height: auto;
+
+        }
+    
+    .element-stickers {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+
+    }
+        .element-stickers-title {
+            font-size: 24px;
+            font-weight: 700;
+            text-align: center;
+        }
+
+        .sticker {
+
+        }
+            .sticker-image {
+
+                width: 100px;
+                height: auto;
+
+            }
+        
+    .element-request {
+
+    }
+        .element-request-title {
+
+        }
+
+        .element-request-text {
+
+        }
+
+        .element-request-button {
+
+        }
+
+    .footer {
+
+    }
+        .footer-text {
+
+        }
+
+        .admin-login {
+
+        }
