@@ -71,19 +71,23 @@ button {        /*all unset maybe unsupported ?*/
 
         padding: 60px;
         margin-bottom: auto;
+
         
 
     }
         .element-media-description {
-            border: 3px dotted white;
+            width: 600px;
             height: 300px;
             box-sizing: border-box;
+            gap: 10px;
             padding-right: 20px;
         }
             .element-media-description-header {
                 color: white;
                 font-size: 48px;
                 font-weight: bolder;
+                margin: 0;
+                padding: 0;
             }
 
             .element-media-description-text {
@@ -104,6 +108,7 @@ button {        /*all unset maybe unsupported ?*/
             
             width: auto;
             height: 300px;
+            border-radius: 5px;
 
         }
 
@@ -140,6 +145,10 @@ button {        /*all unset maybe unsupported ?*/
             width: 150px;
 
         }
+            .sticker-text {
+                text-align: center;
+            }
+
             .sticker-image {
 
                 width: 150px;
@@ -151,25 +160,39 @@ button {        /*all unset maybe unsupported ?*/
 
     .element-quote {           /*élément citation*/
         display: flex;
-        flex-direction: column;
         justify-content: center;
-        flex-grow: 1;
-
+         
+        padding: auto 20px;
         background-color: #e5e7eb;
+        
     }
         .element-quote-text {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+            
+
             font-size: 36px;
             font-weight: lighter;
-            font-style: oblique;
+            
+            width: 640px;
+            margin: 100px auto;
+
+            
             
 
         }
 
-        .element-quote-signature {
-            font-size: medium;
-            font-weight: bolder;
+            .element-quote-signature {
+                align-self: flex-end;
 
-        } 
+
+                font-size: medium;
+                font-weight: bolder;
+                text-align: right;
+        
+
+            } 
 
     .element-request {           /*élément requête*/
         display: flex;
@@ -223,6 +246,7 @@ button {        /*all unset maybe unsupported ?*/
 
     }
         .footer-text {
+            color: white;
             text-align: center;
         }
 

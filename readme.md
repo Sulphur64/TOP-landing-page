@@ -1,1 +1,1 @@
-this page will be about a ring i guess. no, not that one.
+this page will be about a pendant. just a pendant.
